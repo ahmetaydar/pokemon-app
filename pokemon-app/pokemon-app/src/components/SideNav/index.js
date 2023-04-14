@@ -5,9 +5,9 @@ import { Container, MenuItems } from "./style";
 const SideNav = () => {
   return (
     <Container>
-      <MenuItems href={"/home"}></MenuItems>
+      <MenuItems href={"/"}></MenuItems>
       <img height={85} src={logo} />
-      <MenuItems href={"/home"}>Home</MenuItems>
+      <MenuItems href={"/"}>Home</MenuItems>
     </Container>
   );
 };
